@@ -29,4 +29,4 @@ jobs:
         # Step 4: Run the test
         - name: Run Unit Tests
           # If using unittest:
-          run: python -m unittest test_find_max.py
+          run: python -m unittest discover
