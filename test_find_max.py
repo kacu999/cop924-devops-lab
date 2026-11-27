@@ -17,5 +17,8 @@ class TestFindMax(unittest.TestCase):
     def test_mixed_numbers(self):
         self.assertEqual(find_max([-10, 0, 5, -3]), 5)
 
+    def test_single_number(self):
+        self.assertEqual(find_max([4]), 4)
+
 if __name__ == '__main__':
     unittest.main()
